@@ -1,19 +1,19 @@
 ---
 layout: default
-title: CISC374 Showcase
+title: CISC374 Spring 2022 Showcase
 ---
 
-<h1>CISC374 Spring 2020 Educational Games</h1>
+<h1>CISC374 Spring 2022 Educational Games</h1>
 
 Jump to:
 <ul>
-{% for project in site.data.s20games %}
+{% for project in site.s22games %}
     <li><a href="#{{ project.Key }}">{{ project.Name }}</a></li>
 {% endfor %}
 </ul>
 
 <table>
-{% for project in site.data.s20games %}
+{% for project in site.s22games %}
 <tr>
 <td colspan=2 style='border-bottom: 0px'>
     <h2 name="{{ project.Key }}" id="{{ project.Key }}">{{ project.Name }}</h2>
